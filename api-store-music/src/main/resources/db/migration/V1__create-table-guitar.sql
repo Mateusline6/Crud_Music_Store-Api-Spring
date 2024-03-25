@@ -1,0 +1,9 @@
+CREATE TABLE guitars (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    serie VARCHAR(255) NOT NULL,
+    marca VARCHAR(255) NOT NULL,
+    modelo VARCHAR(255) NOT NULL,
+    captador VARCHAR(255) NOT NULL,
+    cor VARCHAR(255) NOT NULL
+);
